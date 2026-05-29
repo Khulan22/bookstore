@@ -10,8 +10,7 @@ import {
   Truck,
   RefreshCw,
   ShieldCheck,
-}
-from "lucide-react";
+} from "lucide-react";
 
 export function Footer() {
   return (
@@ -85,21 +84,18 @@ export function Footer() {
                 href="#"
                 className="p-2.5 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
               >
-                
                 <span className="sr-only">Instagram</span>
               </a>
               <a
                 href="#"
                 className="p-2.5 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
               >
-                
                 <span className="sr-only">Facebook</span>
               </a>
               <a
                 href="#"
                 className="p-2.5 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
               >
-                
                 <span className="sr-only">Twitter</span>
               </a>
             </div>
@@ -265,4 +261,8 @@ export function Footer() {
       </div>
     </footer>
   );
+}
+
+export default function Page() {
+  return <Footer />;
 }
