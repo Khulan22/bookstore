@@ -6,14 +6,11 @@ import {
   Clock,
   Phone,
   Mail,
-  Instagram,
-  Facebook,
-  Twitter,
   CreditCard,
   Truck,
   RefreshCw,
   ShieldCheck,
-} 
+}
 from "lucide-react";
 
 export function Footer() {
@@ -88,21 +85,21 @@ export function Footer() {
                 href="#"
                 className="p-2.5 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
               >
-                <Instagram className="w-5 h-5" />
+                
                 <span className="sr-only">Instagram</span>
               </a>
               <a
                 href="#"
                 className="p-2.5 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
               >
-                <Facebook className="w-5 h-5" />{" "}
+                
                 <span className="sr-only">Facebook</span>
               </a>
               <a
                 href="#"
                 className="p-2.5 bg-primary-foreground/10 rounded-full hover:bg-primary-foreground/20 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
               >
-                <Twitter className="w-5 h-5" />
+                
                 <span className="sr-only">Twitter</span>
               </a>
             </div>
