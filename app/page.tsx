@@ -13,7 +13,8 @@ import {
   Truck,
   RefreshCw,
   ShieldCheck,
-} from "lucide-react";
+} 
+from "lucide-react";
 
 export function Footer() {
   return (
